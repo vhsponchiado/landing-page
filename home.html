@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Empresa</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css"
+rel="stylesheet"
+/>
+</head>
+
+<body>
+
+    <!-- Header Navbar -->
+    <header>
+        <a href="#home" class="logo"><span>Sua Empresa</span></a>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fas fa-bars"></label>
+
+        <nav class="navbar-std">
+            <a href="#home">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#review">Avaliações</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>MELHOR SOFTWARE <span></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus suscipit porro nam libero natus
+                error consequatur sed repudiandae eos quo?</p>
+            <a href="#contact" class="btnstd">Peça já</a>
+        </div>
+
+        <div class="image">
+            <img src="resources/mockup desktop.png" alt="">
+        </div>
+    </section>
+
+
+
+    <!-- Sobre-->
+    <section class="about" id="about">
+        <h1 class="heading"> Sobre o sistema</h1>
+        <div class="column">
+
+            <div class="image">
+                <img src="resources/mockup laptop.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Melhor gerenciamento</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla placeat deserunt saepe repudiandae
+                    veniam soluta minima dolor hic aperiam iure.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quaerat. Dolorem ratione saepe
+                    magni quo inventore porro ab voluptates eos, nam eius provident accusantium, quia similique est,
+                    repellendus et reiciendis.</p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Avaliações  -->
+
+    <section class="review" id="review">
+        <h1 class="heading"> Avalição de Usuários </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./resources/user 1.png" alt="">
+                    <h3>Emerson Baião Cunha</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                    <div class="comment">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus et, perspiciatis nisi tempore
+                        aspernatur accusantium sed distinctio facilis aperiam laborum autem earum repellat, commodi eum.
+                        Ullam cupiditate expedita officiis obcaecati?
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./resources/user 2.png" alt="">
+                    <h3>Esther Ferrari  </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="comment">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus et, perspiciatis nisi tempore
+                        aspernatur accusantium sed distinctio facilis aperiam laborum autem earum repellat, commodi eum.
+                        Ullam cupiditate expedita officiis obcaecati?
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="./resources/user 3.png" alt="">
+                    <h3>João Fagundes Silva</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="comment">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus et, perspiciatis nisi tempore
+                        aspernatur accusantium sed distinctio facilis aperiam laborum autem earum repellat, commodi eum.
+                        Ullam cupiditate expedita officiis obcaecati?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+
+        <div class="image">
+            <img src="./resources/vetor contato.png" alt="">
+        </div>
+
+        <form action="">
+            <h1 class="heading">Contate-nos</h1>
+
+            <div class="inputBox">
+                <input type="text" required>
+                <label>name</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="email" required>
+                <label>email</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="number" required>
+                <label>Celular</label>
+            </div>
+
+            <div class="inputBox">
+                <textarea required name="" id="" cols="30" rows="10"></textarea>
+                <label>Mensagem</label>
+            </div>
+
+            <input type="submit" class="btnstd" value="Enviar">
+
+             </form>
+        </section>
+
+        <footer class="bg-light text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #3b5998;"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #55acee;"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+              
+          
+                <!-- Instagram -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #ac2bac;"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+          
+              
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2022 Copyright:
+              <a class="text-white" href="https://github.com/vinicius-sponchiado">Vinícius Sponchiado</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+    </body>
+</html>
